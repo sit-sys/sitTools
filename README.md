@@ -17,8 +17,8 @@ pip install cTools
 
 # Changelog
 
-## [0.0.1] - 2023-07-19
+### [0.0.1] - 2023-07-19
 
 First version
----
+-------------
 - Common function
