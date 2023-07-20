@@ -10,7 +10,7 @@ Useful tools module for S.I.T. project use
 
 
 ```bash
-pip install cTools
+pip install sitTools
 ```
 
 ## Dependencies
