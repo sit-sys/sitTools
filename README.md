@@ -2,8 +2,7 @@ README
 ===========================
 
 # cTools
-
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/cTools/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cTools)](https://pypi.python.org/pypi/cTools/)
 
 Common tool module for S.I.T. project use
 
