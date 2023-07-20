@@ -1,10 +1,10 @@
 README
 ===========================
 
-# cTools
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cTools)](https://pypi.python.org/pypi/cTools/)
+# sitTools
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sitTools)](https://pypi.python.org/pypi/sitTools/)
 
-Common tool module for S.I.T. project use
+Useful tools module for S.I.T. project use
 
 ## Install it from PyPI
 
