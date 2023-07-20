@@ -3,7 +3,7 @@ README
 
 # cTools
 
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/cTools/)
 
 Common tool module for S.I.T. project use
 
@@ -16,10 +16,3 @@ pip install cTools
 
 ## Dependencies
 
-
-# Changelog
-
-### [0.0.1] - 2023-07-19
-
-#### First version
- - Common function
