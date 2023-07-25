@@ -1,15 +1,19 @@
-README
+README ( 關於本套件 )
 ===========================
 
 # sitTools
+###### 適用 Python 版本
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sitTools)](https://pypi.python.org/pypi/sitTools/)
 
-Useful tools module for S.I.T. project use
+Useful tools module for S.I.T. project use.
+本公司勝和科技 ( Success Integration Technology ) 內部專案常用函式集
 
-## Installation
-    pip install sitTools
+## Installation ( 安裝套件 )
+```bash
+pip install sitTools
+```
 
-## Dependencies
+## Dependencies ( 相依套件 )
 - numpy
 - pandas
 - smtplib
@@ -21,3 +25,4 @@ Useful tools module for S.I.T. project use
 ### gTools
 
 ### cTools
+
