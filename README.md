@@ -30,7 +30,7 @@ pip install sitTools
 #### cTools
 
 `r_get`
->HTTP GET request function.  
->You can define fail retry times and wait sec. by yourself.  
->可自訂 HTTP GET 請求異常重試次數與等待秒數的函式
+HTTP GET request function.  
+You can define fail retry times and wait sec. by yourself.  
+可自訂 HTTP GET 請求異常重試次數與等待秒數的函式
 
