@@ -6,12 +6,18 @@ README
 
 Useful tools module for S.I.T. project use
 
-## Install it from PyPI
-
-
-```bash
-pip install sitTools
-```
+## Installation
+    pip install sitTools
 
 ## Dependencies
+- numpy
+- pandas
+- smtplib
+- configparser
+- email
 
+## Module & Function
+
+### gTools
+
+### cTools
