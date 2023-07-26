@@ -33,7 +33,7 @@ pip install sitTools
   
   HTTP GET request function.  
   You can define fail retry times and wait sec. by yourself.  
-  Default retry request 3 times, wait 5 second between 2 requests.
+  Default retry request 3 times, wait 5 second between 2 requests.  
   可自訂 HTTP GET 請求異常重試次數與等待秒數的函式  
   預設重試 3 次請求, 每次請求間等待 5 秒
   
