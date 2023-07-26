@@ -39,10 +39,12 @@ pip install sitTools
   
   Example:
   ```python
+  ctool = tools.cTools()
+  url = 'http://www.gotest.com'
   head = {}
   par = {}
   
-  rtool.r_get('http://www.gotest.com', head, par)
+  ctool.r_get(url, head, par)
   ```
   
   Result:
