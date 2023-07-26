@@ -30,7 +30,25 @@ pip install sitTools
 #### cTools
 
 `r_get`  
+  r_get(url, header, param, times, sec)  
+  
   HTTP GET request function.  
   You can define fail retry times and wait sec. by yourself.  
-  可自訂 HTTP GET 請求異常重試次數與等待秒數的函式
-
+  Default retry request 3 times, wait 5 second between 2 requests.
+  可自訂 HTTP GET 請求異常重試次數與等待秒數的函式  
+  預設重試 3 次請求, 每次請求間等待 5 秒
+  
+  Example:
+  ```python
+  head = {}
+  par = {}
+  
+  rtool.r_get('http://www.gotest.com', head, par)
+  ```
+  
+  Result:
+  ```
+  2023-07-25 23:00:24 Connect to http://www.gotest.com err, retry after 5 sec...
+  2023-07-25 23:00:37 Connect to http://www.gotest.com err, retry after 5 sec...
+  2023-07-25 23:00:50 Connect to http://www.gotest.com err, retry after 5 sec...
+  ```
