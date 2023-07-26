@@ -29,8 +29,7 @@ pip install sitTools
 
 #### cTools
 
-`r_get`  
-  r_get(url, header, param, times, sec)  
+`r_get(url, header, param, times, sec)`   
   
   HTTP GET request function.  
   You can define fail retry times and wait sec. by yourself.  
