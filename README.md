@@ -15,14 +15,17 @@ pip install sitTools
 ### Dependencies ( 相依套件 )
 - numpy
 - pandas
-- smtplib
 - configparser
 
 ### Module & Function
 
 #### gTools
+General using tool functions.
+常用工具函式
 
 #### cTools
+Crawler tool functions
+網路爬蟲相關工具
 
 `r_get(url, header, param, times, sec)`   
   
