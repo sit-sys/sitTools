@@ -1,6 +1,4 @@
-# README
-
-## About ( 關於本套件 )
+## README
 
 ### sitTools
 ###### 適用 Python 版本
