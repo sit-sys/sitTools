@@ -25,29 +25,8 @@ General using tool functions.
 
 #### cTools
 Crawler tool functions
-網路爬蟲相關工具
+網路爬蟲相關工具函式
 
-`r_get(url, header, param, times, sec)`   
-  
-  HTTP GET request function.  
-  You can define fail retry times and wait sec. by yourself.  
-  Default retry request 3 times, wait 5 second between 2 requests.  
-  可自訂 HTTP GET 請求異常重試次數與等待秒數的函式  
-  預設重試 3 次請求, 每次請求間等待 5 秒
-  
-  Example:
-  ```python
-  ctool = tools.cTools()
-  url = 'http://www.gotest.com'
-  head = {}
-  par = {}
-  
-  ctool.r_get(url, head, par)
-  ```
-  
-  Result:
-  ```
-  2023-07-25 23:00:24 Connect to http://www.gotest.com err, retry after 5 sec...
-  2023-07-25 23:00:37 Connect to http://www.gotest.com err, retry after 5 sec...
-  2023-07-25 23:00:50 Connect to http://www.gotest.com err, retry after 5 sec...
-  ```
+#### sTools
+Security tool function
+安全相關工具函式
