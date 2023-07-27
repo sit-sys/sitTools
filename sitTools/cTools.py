@@ -40,7 +40,8 @@ def r_get(url, header, param, times=3, sec=5):
         try:
             return requests.get(url, headers=header, params=param)
         except Exception as err:
-            print(f'{gTools().d_stamp()} Connect to {url} err, retry after {sec} sec...')
+            stamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            print(f'{stamp} Connect to {url} err, retry after {sec} sec...')
             time.sleep(sec)
     return None
 
