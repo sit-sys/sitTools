@@ -20,7 +20,7 @@ def gen_rsakey(path, host):
     k_pub = k_prv.public_key().export_key("OpenSSH")
     
     with open(path, 'wb') as key_file:
-        k_host = (f'{host} ', 'utf-8')
+        k_host = bytes(f'{host} ', 'utf-8')
         key_file.write(k_host+k_pub)
         
     return None
