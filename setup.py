@@ -10,10 +10,13 @@ AUTHOR_EMAIL = "andy.yang@twsit.com"
 URL = "https://github.com/sit-sys/sitTools"
 DOWNLOAD_URL = "https://pypi.org/project/sitTools/"
  
+with open(HERE/"VERSION", 'r') as ver:
+    vnum = ver.read()
+
 LICENSE = "MIT"
-VERSION = "0.0.1"
+VERSION = vnum
 DESCRIPTION = "Useful function tools for SIT project use."
-LONG_DESCRIPTION = (HERE / "docs" / "README.md").read_text(encoding="utf8")
+LONG_DESCRIPTION = (HERE / "README.md").read_text(encoding="utf8")
 LONG_DESC_TYPE = "text/markdown"
  
 requirements = (HERE / "requirements.txt").read_text(encoding="utf8")
@@ -42,4 +45,5 @@ setup(
     packages=find_packages(),
     classifiers=CLASSIFIERS,
 )
+
 

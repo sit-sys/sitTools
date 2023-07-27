@@ -1,6 +1,4 @@
-<h4 align="center">
-  <img alt="common readme" src="common-readme.png">
-</h4>
+# README
 
 ## About ( 關於本套件 )
 
@@ -21,7 +19,6 @@ pip install sitTools
 - pandas
 - smtplib
 - configparser
-- email
 
 ### Module & Function
 
