@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
+from urllib.request import ssl, socket
 
 def r_get(url, header, param, times=3, sec=5):
     '''
