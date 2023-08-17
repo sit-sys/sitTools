@@ -262,22 +262,22 @@ def key_found(dic, value):
         key = ['null']
     return key[0]
 
-    def read_ini(self, path):
-        '''
-        read_ini(path)
-        
-        To get setting in .ini file you defined.
-        讀取你定義的 ini 檔案並取得檔案內的設定值
-        
-        Argument:
-        參數說明
-        
-        path = .ini file full path
-               自定義的 .ini 設定檔完整絕對路徑
-        '''
-        parser = cfg.ConfigParser()
-        parser.read(path)
-        return parser
+def read_ini(self, path):
+    '''
+    read_ini(path)
+
+    To get setting in .ini file you defined.
+    讀取你定義的 ini 檔案並取得檔案內的設定值
+
+    Argument:
+    參數說明
+
+    path = .ini file full path
+           自定義的 .ini 設定檔完整絕對路徑
+    '''
+    parser = cfg.ConfigParser()
+    parser.read(path)
+    return parser
     
 def add_log(path, log):
     '''
@@ -359,4 +359,5 @@ def p_bar(bar_len , prog, targ):
     sys.stdout.write(f'[{b_show}] {percent} % {size}\r')
     sys.stdout.flush()
     return None
+
 

@@ -24,9 +24,9 @@ General using tool functions.
 常用工具函式
 
 #### cTools
-Crawler tool functions  
+Crawler tool functions.  
 網路爬蟲相關工具函式
 
 #### sTools
-Security tool function  
+Security tool function.  
 安全相關工具函式
