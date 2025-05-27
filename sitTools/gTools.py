@@ -360,4 +360,47 @@ def p_bar(bar_len , prog, targ):
     sys.stdout.flush()
     return None
 
+def write_log(file_path, write_mode, content):
+    '''
+    write_log(file_path, write_mode, content)
+    :param file_path: 檔案完整路徑
+    :param write_mode: 寫入模式
+                        'w' : 覆寫檔案, 檔案不存在新增檔案, 檔案存在覆蓋寫入新檔案內容
+                        'a' : 續寫檔案, 從原本的檔案新增內容, 檔案若不存在會發生錯誤
+                        'r+' : 讀取並寫入檔案, 從檔案最前端開始寫入
+                        'w+' : 寫入檔案, 已存在檔案清空並寫入內容
+    :param content: 要寫入檔案的字串
+    :return:
+
+    傳入檔案路徑, 寫入模式與寫入字串等變數
+    將指定 log 內容寫入指定檔案中
+    '''
+    with open(file_path, write_mode) as wl:
+        wl.write(content)
+
+def wmode(file_path):
+    '''
+    wmode(file_path)
+    :param file_path: 檔案完整路徑
+    :return:
+
+    傳入檔案完整路徑並且由檔案是否存在來判斷寫入模式
+    '''
+    if os.path.exists(file_path):
+        write_mode = 'a'
+    else:
+        write_mode = 'w'
+    return write_mode
+
+def fold_check(fold_path):
+    '''
+    fold_check(fold_path)
+    :param fold_path: 完整目錄路徑
+    :return:
+
+    確認目錄是否存在，如果不存在就依路徑建立目錄樹
+    '''
+    if not os.path.exists(fold_path):
+        os.makedirs(fold_path)
+
 
